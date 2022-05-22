@@ -1,0 +1,27 @@
+#div1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline;
+    border: 2px solid red;
+}
+#div2{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline;
+    border: 2px solid red;
+}
+#div3{
+    background-color:brown;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline;
+    text-align: center;
+    color: aqua;
+    font-size: large;
+    border: 2px solid red;
+}

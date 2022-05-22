@@ -1,0 +1,14 @@
+body{
+    margin-left: 500px;
+    margin-top: 200px;
+}
+#pdiv{
+    background-color: aquamarine;
+    padding: 2px;
+    width: 239px;
+    text-align: center;
+    font-size: 18px;
+}
+#textareadiv{
+   padding:2px;
+}

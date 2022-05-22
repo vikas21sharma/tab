@@ -1,0 +1,15 @@
+.main{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;/* width auto set */
+    justify-content:flex-end;/* how it's work ? */
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.chlild{
+    background-color: rgb(92, 63, 26);
+    text-align: center;
+    margin: 12px;
+    padding: 33px;
+}

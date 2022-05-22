@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: antiquewhite; margin: 10px;">
+	<!-- Heading -->
+	<h3> HTML input form </h3>
+
+	<!-- HTML form -->
+	<form id="formid">
+		<h4>Please enter your First Name : </h4>
+		<input type="text" name="f_name" id="fname"><br>
+		<h4>Please enter your Last Name : </h4>
+		<input type="text" name="l_name" id="lname"><br><br>
+
+		<input type="button" value="Display" id="display" onclick="myfun()">
+		<h1 id="hid"></h1><br>
+		<h2 id="h2id"></h2>
+
+	</form>
+	<script>
+		function myfun() {
+			var input1 = document.getElementById("fname").value;
+		    
+			var input2 = document.getElementById("lname").value;
+			//var input3 = input1 +' ' +input2;
+		
+			//var display=document.getElementById("display").textContent=input3;
+			document.getElementById("hid").innerText = input1;
+			document.getElementById("h2id").innerText=input2;
+		}
+
+	</script>
+</body>
+
+</html>

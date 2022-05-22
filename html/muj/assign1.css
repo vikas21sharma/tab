@@ -1,0 +1,35 @@
+#img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#formid{
+    padding: 30px;
+}
+#divid{
+    text-align: center;
+    padding-left: 94px;
+    width:40%;
+    margin-left: 25%;
+}
+input{
+    padding: 15px;
+    margin: 10px;
+}
+label{
+    font-size: 22px;
+    text-align: left;
+    padding-left:0px;
+}
+h1{
+    text-align: left;
+}
+#positonid{
+    margin-left:10% ;
+}
+#genderid{
+    margin-left:20%;
+}
+button{
+    padding: 13px;
+}

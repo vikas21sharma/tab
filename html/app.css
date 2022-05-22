@@ -1,0 +1,71 @@
+body{
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pricing-img{
+    margin-bottom: 25px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 20%;
+    
+}
+.panel-pricing-table{
+    background-color: white;
+    border-radius: 10px ;
+    border-style: solid;
+    display:flex;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    width:100%;
+    max-width: 860px;
+    color:#0d71e4;
+}
+.pricing-plan{
+    margin: 5px;
+    padding: 10px;
+    border-right:1px solid #e1f1ff;
+}
+h2{
+    color:gray;
+}
+.pricing-price{
+    color: blue;
+    font-size: 28px;
+    padding: 10px;
+    font-weight:700;
+}
+.pricing-features{
+    list-style: none;
+    padding: 5px;
+}
+.pricing-features-item{
+    padding: 5px;
+    font-size: 12px;
+    border-top: 1px solid #e1f1ff;
+}
+.pricing-button{
+    border:2px solid;
+    border-radius: 10px;
+    border-color: #9dd1ff;
+    color: #348efe;
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    padding: 20px 35px;
+
+}
+.pricing-features-item:last-child{
+    border-bottom:1px solid #e1f1ff;
+}
+.pricing-button:hover{
+    background-color:#e1f1ff;
+}
+.princing-button.is-featured {
+    background-color: #348efe;
+    color: white;
+}
